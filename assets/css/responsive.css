@@ -1,0 +1,37 @@
+@media screen and (max-width: 500px) {
+    body {
+        height: auto;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .header {
+        height: auto;
+        padding: 20px;
+    }
+
+    .header__info {
+        line-height: 25px;
+    }
+
+    .body {
+        flex-direction: column;
+    }
+
+    .body__left, .body__right {
+        padding: 20px;
+        width: 100%;
+        min-height: 257px;
+    }
+
+    .body__right__about {
+        font-size: 16.5px;
+    }
+
+    .footer {
+        margin: 30px;
+        padding: 0;
+    }
+}
