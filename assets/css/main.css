@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5EFF5;
+}
+
+.container {
+    margin-top: 16px;
+    width: 677px;
+    height: 495px;
+    max-width: 800px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+.header {
+    padding: 50px 50px;
+    height: 233px;
+}
+
+.header__heading, .header__title{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.header__heading {
+    color: #2ab2af;
+    font-size: 28.8px;
+}
+
+.header__title {
+    color: #c0df34;
+    font-size: 18.72px;
+}   
+
+.header__info {
+    color: #98a6bd;
+    font-size: 16px;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+}
+
+.body__left, .body__right {
+    padding: 33px 50px;
+}
+
+.body__left {
+    background-color: #2bb3b1;
+    width: 50%;
+}
+
+.body__left__header {
+    color: #fff;
+    font-size: 20.8px;
+    font-weight: 700;
+}
+
+.body__left__body {
+    padding: 20px 20px 10px 0px;
+}
+
+.price {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.per-month {
+    color: #fff;
+    opacity: 0.5;
+    padding-left: 4px;
+}   
+
+.body__left__intro {
+    color: #fff;
+    font-size: 16px;
+}
+
+.sign-up-btn {
+    margin-top: 20px;
+    padding: 15px 25px;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    background-color: #c0df34;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, 
+                rgb(0 0 0 / 7%) 0px 2px 2px, 
+                rgb(0 0 0 / 7%) 0px 4px 4px, 
+                rgb(0 0 0 / 7%) 0px 8px 8px, 
+                rgb(0 0 0 / 7%) 0px 16px 16px;
+    transition: all 0.4s ease 0s;
+}
+
+.sign-up-btn:hover {
+    letter-spacing: 1px;
+    transform: translateY(-5px);
+    transition: all 0.4s ease 0s;
+}
+
+.body__right {
+    background-color: #4abebd;
+    width: 50%;
+    color: #fff;
+}
+
+.body__right__title {
+    font-size: 20.8px;
+    padding: 10px 10px 20px 0;
+}
+
+.body__right__about {
+    color: #e5eff5;
+    opacity: 0.9;
+    font-size: 14.4px;
+    line-height: 20.8px;
+}
+
+.footer {
+    padding: 16px;
+    margin-top: 32px;
+}
